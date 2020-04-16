@@ -5,6 +5,8 @@
   "repository": "git@github.com:moevis/dsn-parser.git",
   "author": "moevis.zjj <moevery@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/moevis/dsn-parser",
+  "keywords": ["database", "dsn"],
   "scripts": {
     "test": "mocha -r ts-node/register tests/*.ts",
     "format": "prettier --write \"src/*.ts\"",
