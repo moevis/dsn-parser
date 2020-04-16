@@ -16,7 +16,7 @@
     "lint": "tslint -p tsconfig.json",
     "build": "tsc"
   },
-  "dependencies": {
+  "devDependencies": {
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
     "chai": "^4.2.0",
