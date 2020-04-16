@@ -1,12 +1,15 @@
 {
-  "name": "dsn-parser",
+  "name": "@moevis/dsn-parser",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "git@github.com:moevis/dsn-parser.git",
   "author": "moevis.zjj <moevery@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/moevis/dsn-parser",
-  "keywords": ["database", "dsn"],
+  "keywords": [
+    "database",
+    "dsn"
+  ],
   "scripts": {
     "test": "mocha -r ts-node/register tests/*.ts",
     "format": "prettier --write \"src/*.ts\"",
